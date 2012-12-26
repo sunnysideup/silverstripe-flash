@@ -1,4 +1,4 @@
-<% if FlashObjectData %><% control FlashObjectData %>
+<% if FlashObjectData %><% with FlashObjectData %>
 
 	<div id="wrapperFor-{$ID}" style="<% if Height %>height: {$Height}px!important;<% end_if %><% if Width %> width: {$Width}px!important;<% end_if %>">
 	<% if UseDynamicInsert %>
@@ -21,4 +21,4 @@
 	<% end_if %>
 	</div>
 
-<% end_control %><% end_if %>
+<% end_with %><% end_if %>
