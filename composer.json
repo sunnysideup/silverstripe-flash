@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/flash",
+	"name": "sunnysideup/flash",
 	"type": "silverstripe-module",
 	"description": "add flash objects to your Silverstripe application",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
