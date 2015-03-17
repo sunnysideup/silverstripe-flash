@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<source xmlns="http://xml.phpdox.net/token">
+  <file xmlns="http://xml.phpdox.net/src" path="/var/www/_modules/flash/trunk/docs/en/phpdox/../../.." file="_config.php" realpath="/var/www/_modules/flash/trunk/_config.php" size="1992" time="2015-03-14T10:22:29+13:00" unixtime="1426281749" sha1="e68e54b7af3d835f77e17ff6641edbeb3417fe22" relative="_config.php"/>
+  <line no="1">
+    <token name="T_OPEN_TAG">&lt;?php</token>
+  </line>
+  <line no="2"/>
+  <line no="3"/>
+  <line no="4"/>
+  <line no="5">
+    <token name="T_COMMENT">/*</token>
+  </line>
+  <line no="6">
+    <token name="T_COMMENT"> * Based on Silverstripe's module</token>
+  </line>
+  <line no="7">
+    <token name="T_COMMENT"> * developed by www.sunnysideup.co.nz</token>
+  </line>
+  <line no="8">
+    <token name="T_COMMENT"> * author: Nicolaas - modules [at] sunnysideup.co.nz</token>
+  </line>
+  <line no="9">
+    <token name="T_COMMENT"> **/</token>
+  </line>
+  <line no="10"/>
+  <line no="11">
+    <token name="T_COMMENT">//copy the lines between the START AND END line to your /mysite/_config.php file and choose the right settings</token>
+  </line>
+  <line no="12">
+    <token name="T_COMMENT">//===================---------------- START flash MODULE ----------------===================</token>
+  </line>
+  <line no="13">
+    <token name="T_COMMENT">//must set</token>
+  </line>
+  <line no="14">
+    <token name="T_COMMENT">//FlashObject::set_default_div_id("FlashObject");</token>
+  </line>
+  <line no="15"/>
+  <line no="16">
+    <token name="T_COMMENT">//may set - allows you to add one flash file to each page with title and alternative content</token>
+  </line>
+  <line no="17">
+    <token name="T_COMMENT">//Object::add_extension('SiteTree', 'FlashObjectDOD');</token>
+  </line>
+  <line no="18">
+    <token name="T_COMMENT">//FlashObjectDOD::set_classes_with_flash(array("HomePage")); OR //FlashObjectDOD::set_classes_without_flash(array("ProductPage"));</token>
+  </line>
+  <line no="19"/>
+  <line no="20">
+    <token name="T_COMMENT">//basics</token>
+  </line>
+  <line no="21">
+    <token name="T_COMMENT">//FlashObject::set_default_external_flash_file("");</token>
+  </line>
+  <line no="22">
+    <token name="T_COMMENT">//FlashObject::set_default_width(826);</token>
+  </line>
+  <line no="23">
+    <token name="T_COMMENT">//FlashObject::set_default_height(173);</token>
+  </line>
+  <line no="24">
+    <token name="T_COMMENT">//FlashObject::set_default_flash_version("6.0.0");</token>
+  </line>
+  <line no="25">
+    <token name="T_COMMENT">//FlashObject::set_default_alternative_content('&lt;a href="http://www.adobe.com/go/getflashplayer"&gt;&lt;img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /&gt;&lt;/a&gt;');</token>
+  </line>
+  <line no="26"/>
+  <line no="27">
+    <token name="T_COMMENT">//parameters</token>
+  </line>
+  <line no="28">
+    <token name="T_COMMENT">//FlashObject::add_param("quality", "high");</token>
+  </line>
+  <line no="29">
+    <token name="T_COMMENT">//FlashObject::add_param("play", "");</token>
+  </line>
+  <line no="30">
+    <token name="T_COMMENT">//FlashObject::add_param("loop", "");</token>
+  </line>
+  <line no="31">
+    <token name="T_COMMENT">//FlashObject::add_param("menu", "");</token>
+  </line>
+  <line no="32">
+    <token name="T_COMMENT">//FlashObject::add_param("quality", "");</token>
+  </line>
+  <line no="33">
+    <token name="T_COMMENT">//FlashObject::add_param("scale", "");</token>
+  </line>
+  <line no="34">
+    <token name="T_COMMENT">//FlashObject::add_param("salign", "");</token>
+  </line>
+  <line no="35">
+    <token name="T_COMMENT">//FlashObject::add_param("wmode", "transparent");</token>
+  </line>
+  <line no="36">
+    <token name="T_COMMENT">//FlashObject::add_param("bgcolor", "");</token>
+  </line>
+  <line no="37">
+    <token name="T_COMMENT">//FlashObject::add_param("base", "");</token>
+  </line>
+  <line no="38">
+    <token name="T_COMMENT">//FlashObject::add_param("swliveconnect", "");</token>
+  </line>
+  <line no="39">
+    <token name="T_COMMENT">//FlashObject::add_param("flashvars", "");</token>
+  </line>
+  <line no="40">
+    <token name="T_COMMENT">//FlashObject::add_param("devicefont", "");</token>
+  </line>
+  <line no="41">
+    <token name="T_COMMENT">//FlashObject::add_param("allowscriptaccess", "");</token>
+  </line>
+  <line no="42">
+    <token name="T_COMMENT">//FlashObject::add_param("seamlesstabbing", "");</token>
+  </line>
+  <line no="43">
+    <token name="T_COMMENT">//FlashObject::add_param("allowfullscreen", "");</token>
+  </line>
+  <line no="44">
+    <token name="T_COMMENT">//FlashObject::add_param("allownetworking", "");</token>
+  </line>
+  <line no="45"/>
+  <line no="46">
+    <token name="T_COMMENT">//===================---------------- END flash MODULE ----------------===================</token>
+  </line>
+  <line no="47"/>
+</source>

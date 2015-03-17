@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="FlashObject" namespace="" name="FlashObject" abstract="false" final="false" start="7" end="144">
+  <file path="/var/www/_modules/flash/trunk/docs/en/phpdox/../../../code" file="FlashObject.php" realpath="/var/www/_modules/flash/trunk/code/FlashObject.php" size="5182" time="2015-03-14T10:22:29+13:00" unixtime="1426281749" sha1="a3dc597609f629c3c0e91595fc2f0795463f6f69" relative="code/FlashObject.php"/>
+  <extends full="ViewableData" namespace="" name="ViewableData"/>
+  <member name="use_dynamic_insert" type="{unknown}" default="true" visibility="protected" line="9"/>
+  <member name="title" type="string" default="&quot;MyFlashObjectTitle&quot;" visibility="protected" line="11"/>
+  <member name="filename" type="string" default="&quot;flashObject.swf&quot;" visibility="protected" line="13"/>
+  <member name="flash_file_div_id" type="string" default="&quot;FlashObject&quot;" visibility="protected" line="15"/>
+  <member name="width" type="integer" default="200" visibility="protected" line="17"/>
+  <member name="height" type="integer" default="200" visibility="protected" line="19"/>
+  <member name="flash_version" type="string" default="&quot;6.0.0&quot;" visibility="protected" line="21"/>
+  <member name="alternative_content" type="string" default="'&lt;a href=&quot;http://www.adobe.com/go/getflashplayer&quot;&gt;get flash player&lt;/a&gt;'" visibility="protected" line="23"/>
+  <member name="param_array" type="array" visibility="protected" line="25"/>
+  <member name="external_flash_file" type="string" default="''" visibility="protected" line="27"/>
+  <method name="CreateFlashObject" start="29" end="89" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="Title" byreference="false" type="string" default="''"/>
+    <parameter name="FlashFileDivID" byreference="false" type="string" default="''"/>
+    <parameter name="FlashFilename" byreference="false" type="string" default="''"/>
+    <parameter name="AlternativeContent" byreference="false" type="string" default="''"/>
+    <parameter name="Width" byreference="false" type="integer" default="0"/>
+    <parameter name="Height" byreference="false" type="integer" default="0"/>
+    <parameter name="FlashVersion" byreference="false" type="string" default="''"/>
+    <parameter name="ParamArray" byreference="false" type="array"/>
+    <parameter name="javascriptAlreadyAdded" byreference="false" type="{unknown}" default="false"/>
+  </method>
+  <method name="CreateYouTubeVideo" start="92" end="132" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="title" byreference="false" type="{unknown}"/>
+    <parameter name="code" byreference="false" type="{unknown}"/>
+    <parameter name="width" byreference="false" type="integer" default="640"/>
+    <parameter name="height" byreference="false" type="integer" default="385"/>
+    <parameter name="fullScreen" byreference="false" type="{unknown}" default="false"/>
+    <inline>
+      <comment value="important!" line="93"/>
+    </inline>
+  </method>
+  <method name="has_external_flash_file" start="134" end="134" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="set_use_dynamic_insert" start="135" end="135" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_filename" start="136" end="136" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_div_id" start="137" end="137" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_width" start="138" end="138" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_height" start="139" end="139" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_flash_version" start="140" end="140" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_alternative_content" start="141" end="141" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="set_default_external_flash_file" start="142" end="142" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="add_param" start="143" end="143" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="name" byreference="false" type="{unknown}"/>
+    <parameter name="value" byreference="false" type="{unknown}"/>
+  </method>
+</class>

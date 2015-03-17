@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="FlashObjectDOD" namespace="" name="FlashObjectDOD" abstract="false" final="false" start="7" end="68">
+  <file path="/var/www/_modules/flash/trunk/docs/en/phpdox/../../../code" file="FlashObjectDOD.php" realpath="/var/www/_modules/flash/trunk/code/FlashObjectDOD.php" size="1911" time="2015-03-14T10:22:29+13:00" unixtime="1426281749" sha1="da134e4f65767014e1a150eacad816e90b29232c" relative="code/FlashObjectDOD.php"/>
+  <extends full="SiteTreeDecorator" namespace="" name="SiteTreeDecorator"/>
+  <method name="extraStatics" start="9" end="18" abstract="false" final="false" static="false" visibility="public"/>
+  <member name="classes_with_flash" type="array" visibility="protected" line="20"/>
+  <method name="set_classes_with_flash" start="21" end="21" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="v" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_classes_with_flash" start="22" end="22" abstract="false" final="false" static="true" visibility="public"/>
+  <member name="classes_without_flash" type="array" visibility="protected" line="24"/>
+  <method name="set_classes_without_flash" start="25" end="25" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="v" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="get_classes_without_flash" start="26" end="26" abstract="false" final="false" static="true" visibility="public"/>
+  <method name="updateCMSFields" start="28" end="47" abstract="false" final="false" static="false" visibility="public">
+    <parameter name="fields" byreference="true" type="object">
+      <type full="\\FieldSet" namespace="\" name="FieldSet"/>
+    </parameter>
+  </method>
+  <method name="CreateFlashObject" start="49" end="58" abstract="false" final="false" static="false" visibility="public"/>
+  <method name="FlashObjectData" start="64" end="66" abstract="false" final="false" static="false" visibility="public"/>
+</class>

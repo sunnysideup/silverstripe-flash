@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="TagCloud" namespace="" name="TagCloud" abstract="false" final="false" start="5" end="40">
+  <file path="/var/www/_modules/flash/trunk/docs/en/phpdox/../../../code" file="TagCloud.php" realpath="/var/www/_modules/flash/trunk/code/TagCloud.php" size="1042" time="2015-03-14T10:22:29+13:00" unixtime="1426281749" sha1="ebefe14f8bb90bce608e9bcbe0c87fdb18404374" relative="code/TagCloud.php"/>
+  <extends full="ViewableData" namespace="" name="ViewableData"/>
+  <member name="tagCloudItems" type="array" visibility="public" line="7"/>
+  <member name="elementID" type="string" default="&quot;flashcontent&quot;" visibility="public" line="9"/>
+  <method name="addCloudTag" start="11" end="16" abstract="false" final="false" static="true" visibility="public">
+    <parameter name="itemName" byreference="false" type="{unknown}"/>
+    <parameter name="style" byreference="false" type="{unknown}"/>
+  </method>
+  <method name="init" start="18" end="36" abstract="false" final="false" static="false" visibility="public"/>
+</class>
