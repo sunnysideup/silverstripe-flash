@@ -3,8 +3,10 @@
     "type": "silverstripe-module",
     "description": "add flash objects to your Silverstripe application",
     "keywords": [
-        "flash",
-        "silverstripe"
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "flash"
     ],
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
@@ -16,7 +18,8 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "silverstripe/framework": "~2.4"
+        "silverstripe/framework": "~2.4",
+        "silverstripe/cms": "~2.4"
     },
     "extra": {
         "installer-name": "flash"
