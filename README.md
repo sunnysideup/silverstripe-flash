@@ -1,88 +1,72 @@
-Flash Module
-================================================================================
+# Silverstripe flash module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-flash.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-flash)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-flash/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-flash/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-flash/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-flash?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/flash/badge)
 
-Developer
------------------------------------------------
-Nicolaas Francken [at] sunnysideup.co.nz
-
-Requirements
------------------------------------------------
-see composer.json
-
-Documentation
------------------------------------------------
-This module allows you to add flashObjects the "correct" way.
-You can either use a DataObjectDecorator OR just use pre-configured
-data for your flashobjects
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/flash/version)](https://packagist.org/packages/sunnysideup/flash)
+[![License](https://poser.pugx.org/sunnysideup/flash/license)](https://packagist.org/packages/sunnysideup/flash)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/flash/d/monthly)](https://packagist.org/packages/sunnysideup/flash)
 
 
- @source http://code.google.com/p/swfobject/wiki/documentation
- @see http://www.swffix.org/swfobject/generator/
-
-Allows insertion of Flash Files the "proper" way.
-
-
-/*
-How can you use HTML to configure your Flash content?
-
-You can add the following often-used optional attributes [ http://www.w3schools.com/tags/tag_object.asp ] to the object element:
-
-    * id
-    * name
-    * class
-    * align
-
-You can use the following optional Flash specific param elements [ http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=tn_12701 ]:
-
-    * play
-    * loop
-    * menu
-    * quality
-    * scale
-    * salign
-    * wmode
-    * bgcolor
-    * base
-    * swliveconnect
-    * flashvars
-    * devicefont [ http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=tn_13331 ]
-    * allowscriptaccess [ http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=tn_16494 ] and [ http://www.adobe.com/go/kb402975 ]
-    * seamlesstabbing [ http://www.adobe.com/support/documentation/en/flashplayer/7/releasenotes.html ]
-    * allowfullscreen [ http://www.adobe.com/devnet/flashplayer/articles/full_screen_mode.html ]
-    * allownetworking [ http://livedocs.adobe.com/flash/9.0/main/00001079.html ]
-*/
-
-Quick implementation of a youtube video
------------------------------------------------
-
-
-1. add the following to your controller class:
-
-		function FlashObjectData() {
-			$obj = new FlashObject()
-			return $obj->CreateYouTubeVideo("Test Video", "v_A2flQJa20");
-		}
-
-2. in your template, add
-
-<% include FlashObject %>
-
-DONE
-NB: there is no need to add the FlashObjectDecorator in your config file.
-
-** ALSO SEE:
-http://code.google.com/apis/youtube/player_parameters.html
-http://code.google.com/apis/youtube/js_api_reference.html
-
-
-Installation Instructions
------------------------------------------------
-1. Find out how to add modules to SS and add module as per usual.
-2. Review configs and add entries to mysite/_config/config.yml
-(or similar) as necessary.
-In the _config/ folder of this module
-you can usually find some examples of config options (if any).
+## Documentation
 
 
 
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/flash/docs/en/api/)
 
+## Requirements
+
+
+
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/flash
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `flash.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `flash.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
