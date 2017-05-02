@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/flash/trunk">
-  <namespace name="">
-    <class name="TagCloud" src="code/TagCloud.php" xml="classes/TagCloud.xml"/>
-    <class name="FlashObjectDOD" src="code/FlashObjectDOD.php" xml="classes/FlashObjectDOD.xml"/>
-    <class name="FlashObject" src="code/FlashObject.php" xml="classes/FlashObject.xml"/>
-  </namespace>
-</index>
